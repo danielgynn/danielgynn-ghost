@@ -12,7 +12,7 @@ config = {
     // Configure your URL and mail settings here
     // ### Production
 production: {
-  url: 'http://my-blog.com',
+  url: 'http://danielgynn-ghost.herokuapp.com',
   mail: {
     transport: 'SMTP',
     host: 'smtp.mandrillapp.com',
