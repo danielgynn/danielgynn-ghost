@@ -295,6 +295,14 @@ li li {
     margin: 0;
 }
 
+.social-icons ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 1em .5em;
+  margin: 1em auto;
+  text-align: center;
+}
+
 hr {
     display: block;
     height: 1px;
