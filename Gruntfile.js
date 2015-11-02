@@ -59,6 +59,13 @@ var _              = require('lodash'),
             // Load package.json so that we can create correctly versioned releases.
             pkg: grunt.file.readJSON('package.json'),
 
+            sass: {
+        			dist: {
+        				files: {
+        					'content/themes/casper/assets/css/main.css' : 'content/themes/casper/assets/sass/main.scss'
+        				}
+        			}
+        		},
             // ### grunt-contrib-watch
             // Watch files and livereload in the browser during development.
             // See the [grunt dev](#live%20reload) task for how this is used.
@@ -75,6 +82,10 @@ var _              = require('lodash'),
                         livereload: true
                     }
                 },
+                css: {
+          				files: '**/*.scss',
+          				tasks: ['sass']
+          			},
                 express: {
                     files:  ['core/ghost-server.js', 'core/server/**/*.js'],
                     tasks:  ['express:dev'],
