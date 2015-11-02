@@ -2,12 +2,8 @@
 
 @import "styles/stuff.scss";
 
-p {
-  color: red;
-}
-
 // Typography
-// $sans-font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sans-font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serif-font-family: Georgia, Times, 'Times New Roman', serif !default;
 $futura-font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 $thin-text: 100;
