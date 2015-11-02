@@ -66,6 +66,7 @@ var _              = require('lodash'),
                 livereload: {
                     files: [
                         'content/themes/casper/assets/css/*.css',
+                        'content/themes/casper/assets/sass/*.scss',
                         'content/themes/casper/assets/js/*.js',
                         'core/built/assets/*.js',
                         'core/client/dist/index.html'
