@@ -12,7 +12,7 @@ config = {
     // Configure your URL and mail settings here
     // ### Production
 production: {
-  url: 'http://danielgynn.com',
+  url: 'http://www.danielgynn.com',
   mail: {
     transport: 'SMTP',
     host: 'smtp.mandrillapp.com',
