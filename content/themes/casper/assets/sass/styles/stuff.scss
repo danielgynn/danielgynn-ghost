@@ -1259,6 +1259,29 @@ body:not(.post-template) .post-title {
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
+.center-image {
+  margin: 0 auto;
+  max-width: 150px;
+  max-height: 150px;
+}
+.profile-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-bottom: 2em;
+  &:hover {
+    -webkit-filter: none;
+    filter: none;
+    position: relative;
+  }
+}
+@media screen and (max-width: 480px) {
+  .profile-image{
+    max-width: 60%;
+    max-height: 60%;
+  }
+}
 
 .author-image {
     -webkit-box-sizing: border-box;
