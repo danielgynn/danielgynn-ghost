@@ -1191,6 +1191,15 @@ body:not(.post-template) .post-title {
   box-shadow: #FFF 0 0 0 5px; }
 
 .profile-image {
+  margin-top: 1em;
+  margin-right: 1em;
+  position: relative;
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
+
+.author-image {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1206,19 +1215,6 @@ body:not(.post-template) .post-title {
   padding: 6px;
   background: #fff;
   z-index: 2;
-  box-shadow: #E7EEF2 0 0 0 1px; }
-
-.author-image {
-  display: block;
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  margin-left: -40px;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  padding: 6px;
-  background: #fff;
   box-shadow: #E7EEF2 0 0 0 1px; }
 
 .author-image .img {
