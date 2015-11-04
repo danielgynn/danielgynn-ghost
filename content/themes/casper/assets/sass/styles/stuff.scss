@@ -1262,8 +1262,8 @@ body:not(.post-template) .post-title {
 .profile-image {
   margin-top: 1em;
   margin-right: 1em;
-  width:140px;
-  height:140px;
+  max-width:140px;
+  max-height:140px;
   position: relative;
  display: block;
   -webkit-border-radius: 50%;
