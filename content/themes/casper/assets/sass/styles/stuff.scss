@@ -1259,12 +1259,15 @@ body:not(.post-template) .post-title {
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
+.center-image {
+  margin: 0 auto;
+  max-width: 150px;
+  max-height: 150px;
+}
 .profile-image {
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  max-height: 150px;
-  max-width: 150px;
   display: block;
   margin: 0 auto;
   &:hover {
