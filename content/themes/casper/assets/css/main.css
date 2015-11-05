@@ -1206,6 +1206,10 @@ body:not(.post-template) .post-title {
     filter: none;
     position: relative; }
 
+@media screen and (max-width: 480px) {
+  .profile-image {
+    max-width: 60%;
+    max-height: 60%; } }
 .author-image {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1224,10 +1228,6 @@ body:not(.post-template) .post-title {
   z-index: 2;
   box-shadow: #E7EEF2 0 0 0 1px; }
 
-@media screen and (max-width: 480px) {
-  .author-image {
-    max-width: 60%;
-    max-height: 60%; } }
 .author-image .img {
   position: relative;
   display: block;
