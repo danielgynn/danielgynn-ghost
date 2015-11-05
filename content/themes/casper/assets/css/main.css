@@ -1194,18 +1194,14 @@ body:not(.post-template) .post-title {
   border-radius: 50%;
   height: 150px;
   width: 150px;
+  max-height: 150px;
+  max-width: 150px;
   display: block;
-  margin: auto; }
+  margin: 0 auto; }
   .profile-image:hover {
     -webkit-filter: none;
     filter: none;
-    position: relative;
-    -webkit-transition: all 3s ease-out;
-    -moz-transition: all 1.3s ease-out;
-    -o-transition: all 1.3s ease-out;
-    transition: all 3s ease-out;
-    -webkit-transform: translateZ(0px);
-    transform: translateZ(0px); }
+    position: relative; }
 
 .author-image {
   -webkit-box-sizing: border-box;
