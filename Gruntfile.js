@@ -76,13 +76,6 @@ var _              = require('lodash'),
                         livereload: true
                     }
                 },
-                sass: {
-            			dist: {
-            				files: {
-            					'content/themes/casper/assets/css/main.css' : 'content/themes/casper/assets/sass/main.scss'
-            				}
-            			}
-            		},
                 express: {
                     files:  ['core/ghost-server.js', 'core/server/**/*.js'],
                     tasks:  ['express:dev'],

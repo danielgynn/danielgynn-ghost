@@ -89,6 +89,8 @@
     "grunt-mocha-istanbul": "2.4.0",
     "grunt-shell": "1.1.2",
     "grunt-update-submodules": "0.4.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
     "matchdep": "0.3.0",
     "nock": "2.3.0",
     "rewire": "2.3.3",
