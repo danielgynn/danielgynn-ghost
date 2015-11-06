@@ -950,8 +950,7 @@ body:not(.post-template) .post-title {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   line-height: 2.2rem;
-  color: #9EABB3;
-  text-align: center; }
+  color: #9EABB3; }
 
 .author-thumb {
   width: 24px;
@@ -1023,7 +1022,8 @@ body:not(.post-template) .post-title {
   text-align: center; }
 
 .post-template .post-meta {
-  margin: 0; }
+  margin: 0;
+  text-align: center; }
 
 .post-template .post-date {
   padding: 0;
@@ -1537,8 +1537,8 @@ body:not(.post-template) .post-title {
   .blog-logo img {
     padding: 4px 0; }
   .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 135px;
+    height: 135px;
     margin-bottom: 2em; }
   .page-title {
     font-size: 4rem;
@@ -1619,6 +1619,10 @@ body:not(.post-template) .post-title {
     padding: 5px; }
   .blog-logo img {
     height: 30px; }
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 2em; }
   .menu-button {
     padding: 0 5px;
     border-radius: 0;
