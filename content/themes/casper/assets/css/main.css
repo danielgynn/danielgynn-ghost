@@ -1755,14 +1755,14 @@ pre[class*="language-"] {
 pre {
   padding: 50px 50px;
   border-radius: 4px;
-  background: #fdfefe;
+  background: #F7FAFB;
   margin: 2.2em -50px;
   line-height: 1.2em;
   overflow: auto;
   border: solid 1px #222; }
 
 pre.terminal {
-  background: #fdfefe;
+  background: #F7FAFB;
   border: solid 1px #222;
   position: relative; }
 
@@ -1771,7 +1771,7 @@ pre.terminal:before {
   display: block;
   height: 34px;
   line-height: 34px;
-  background: #fdfefe;
+  background: #F7FAFB;
   border-bottom: solid 1px #222;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
