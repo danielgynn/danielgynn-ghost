@@ -1199,13 +1199,13 @@ body:not(.post-template) .post-title {
   max-width: 150px;
   max-height: 150px; }
 
-.profile-image img {
+.profile-image {
   border-radius: 50%;
   height: 150px;
   width: 150px;
   display: block;
   margin-bottom: 2em; }
-  .profile-image img:hover {
+  .profile-image:hover {
     -webkit-filter: none;
     filter: none;
     position: relative; }
@@ -1538,7 +1538,8 @@ body:not(.post-template) .post-title {
     padding: 4px 0; }
   .profile-image {
     width: 120px;
-    height: 120px; }
+    height: 120px;
+    margin-bottom: 2em; }
   .page-title {
     font-size: 4rem;
     letter-spacing: -1px; }
