@@ -75,6 +75,14 @@ mark {
   background: #FF0;
   color: #000; }
 
+code, kbd, pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap; }
+
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
@@ -923,6 +931,9 @@ body:not(.post-template) .post-title {
 
 .post-title a {
   text-decoration: none; }
+
+.post-title a:hover {
+  text-decoration: underline; }
 
 .post-excerpt p {
   margin: 0;
