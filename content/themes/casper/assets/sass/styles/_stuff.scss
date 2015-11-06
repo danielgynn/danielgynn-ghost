@@ -212,7 +212,8 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: $sans-font-family;
+    font-weight: 300;
     text-rendering: geometricPrecision;
 }
 
@@ -974,6 +975,7 @@ body:not(.post-template) .post-title {
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
+    text-align: center;
 }
 
 .author-thumb {
@@ -1057,6 +1059,7 @@ body:not(.post-template) .post-title {
 
 .post-template .post-title {
     margin-bottom: 0;
+    text-align: center;
 }
 
 .post-template .post-meta {
@@ -1274,12 +1277,6 @@ body:not(.post-template) .post-title {
     -webkit-filter: none;
     filter: none;
     position: relative;
-  }
-}
-@media screen and (max-width: 480px) {
-  .profile-image{
-    max-width: 60%;
-    max-height: 60%;
   }
 }
 
@@ -1663,6 +1660,11 @@ body:not(.post-template) .post-title {
 
     .blog-logo img {
         padding: 4px 0;
+    }
+
+    .profile-image{
+      width: 120px;
+      height:120px;
     }
 
     .page-title {
