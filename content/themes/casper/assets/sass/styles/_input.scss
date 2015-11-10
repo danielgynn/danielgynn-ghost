@@ -44,6 +44,11 @@ input {
     outline: 0;
   }
 }
+input {
+  &[type="email"] {
+    width: 80%;
+  }
+}
 
 textarea:focus,
 select:focus {
