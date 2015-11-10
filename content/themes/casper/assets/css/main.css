@@ -1905,3 +1905,125 @@ code {
   display: block;
   width: 45%;
   float: left; }
+
+button {
+  display: inline-block;
+  height: 38px;
+  width: 185px;
+  padding: 0 1em;
+  margin: 1em;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fdfefe;
+  background-color: #222f35;
+  border-radius: 4px;
+  border: 1px solid #222f35;
+  cursor: pointer;
+  box-sizing: border-box; }
+  button:hover {
+    color: #fdfefe;
+    background-color: #364b54;
+    border-color: #658b9c;
+    outline: 0; }
+  button:focus {
+    color: #fdfefe;
+    background-color: #364b54;
+    border-color: #658b9c;
+    outline: 0; }
+
+button.button-primary {
+  color: #fdfefe;
+  background-color: #45afb6;
+  border-color: #45afb6; }
+  button.button-primary:hover {
+    color: #fdfefe;
+    background-color: #68c0c6;
+    border-color: #bee4e6; }
+  button.button-primary:focus {
+    color: #fdfefe;
+    background-color: #68c0c6;
+    border-color: #bee4e6; }
+
+button.button-warning {
+  color: #fdfefe;
+  background-color: #e57373;
+  border-color: #e57373; }
+  button.button-warning:hover {
+    color: #fdfefe;
+    background-color: #ed9e9e;
+    border-color: white; }
+  button.button-warning:focus {
+    color: #fdfefe;
+    background-color: #ed9e9e;
+    border-color: white; }
+
+button.button-edit {
+  color: #fdfefe;
+  background-color: #fdc61d;
+  border-color: #fdc61d; }
+  button.button-edit:hover {
+    color: #fdfefe;
+    background-color: #fdd350;
+    border-color: white; }
+  button.button-edit:focus {
+    color: #fdfefe;
+    background-color: #fdd350;
+    border-color: #fef0c5; }
+
+button.button-light {
+  color: #222f35;
+  background-color: #fdfefe;
+  border-color: #222f35; }
+  button.button-light:hover {
+    color: #222f35;
+    background-color: white;
+    border-color: #658b9c; }
+  button.button-light:focus {
+    color: #222f35;
+    background-color: white;
+    border-color: #658b9c; }
+
+button.button-primary-light {
+  color: #45afb6;
+  background-color: #fdfefe;
+  border-color: #45afb6; }
+  button.button-primary-light:hover {
+    color: #45afb6;
+    background-color: white;
+    border-color: #bee4e6; }
+  button.button-primary-light:focus {
+    color: #45afb6;
+    background-color: white;
+    border-color: #bee4e6; }
+
+button.button-warning-light {
+  color: #e57373;
+  background-color: #fdfefe;
+  border-color: #e57373; }
+  button.button-warning-light:hover {
+    color: #e57373;
+    background-color: white;
+    border-color: #ed9e9e; }
+  button.button-warning-light:focus {
+    color: #e57373;
+    background-color: white;
+    border-color: #ed9e9e; }
+
+button.button-edit-light {
+  color: #fdc61d;
+  background-color: #fdfefe;
+  border-color: #fdc61d; }
+  button.button-edit-light:hover {
+    color: #fdc61d;
+    background-color: white;
+    border-color: #fef0c5; }
+  button.button-edit-light:focus {
+    color: #fdc61d;
+    background-color: white;
+    border-color: #fef0c5; }

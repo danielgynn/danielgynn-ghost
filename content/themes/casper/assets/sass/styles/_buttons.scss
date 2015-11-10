@@ -1,0 +1,145 @@
+button {
+  display: inline-block;
+  height: 38px;
+  width: 185px;
+  padding: 0 1em;
+  margin: 1em;
+  text-align: center;
+  font-size: 11px;
+  font-weight: $light-text;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  color: $whiteish;
+  background-color: $navy;
+  border-radius: $global-radius;
+  border: 1px solid $navy;
+  cursor: pointer;
+  box-sizing: border-box;
+  &:hover {
+    color: $whiteish;
+    background-color: lighten($navy, 10%);
+    border-color: lighten($navy, 33.3%);
+    outline: 0;
+  }
+  &:focus {
+    color: $whiteish;
+    background-color: lighten($navy, 10%);
+    border-color: lighten($navy, 33.3%);
+    outline: 0;
+  }
+}
+
+button.button-primary {
+  color: $whiteish;
+  background-color: $teal;
+  border-color: $teal;
+  &:hover {
+    color: $whiteish;
+    background-color: lighten($teal, 10%);
+    border-color: lighten($teal, 33.3%);
+  }
+  &:focus {
+    color: $whiteish;
+    background-color: lighten($teal, 10%);
+    border-color: lighten($teal, 33.3%);
+  }
+}
+
+button.button-warning {
+  color: $whiteish;
+  background-color: $red;
+  border-color: $red;
+  &:hover {
+    color: $whiteish;
+    background-color: lighten($red, 10%);
+    border-color: lighten($red, 33.3%);
+  }
+  &:focus {
+    color: $whiteish;
+    background-color: lighten($red, 10%);
+    border-color: lighten($red, 33.3%);
+  }
+}
+
+button.button-edit {
+  color: $whiteish;
+  background-color: $yellow;
+  border-color: $yellow;
+  &:hover {
+    color: $whiteish;
+    background-color: lighten($yellow, 10%);
+    border-color: lighten($red, 33.3%);
+  }
+  &:focus {
+    color: $whiteish;
+    background-color: lighten($yellow, 10%);
+    border-color: lighten($yellow, 33.3%);
+  }
+}
+
+button.button-light {
+  color: $navy;
+  background-color: $whiteish;
+  border-color: $navy;
+  &:hover {
+    color: $navy;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($navy, 33.3%);
+  }
+  &:focus {
+    color: $navy;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($navy, 33.3%);
+  }
+}
+
+button.button-primary-light {
+  color: $teal;
+  background-color: $whiteish;
+  border-color: $teal;
+  &:hover {
+    color: $teal;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($teal, 33.3%);
+  }
+  &:focus {
+    color: $teal;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($teal, 33.3%);
+  }
+}
+
+button.button-warning-light {
+  color: $red;
+  background-color: $whiteish;
+  border-color: $red;
+  &:hover {
+    color: $red;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($red, 10%);
+  }
+  &:focus {
+    color: $red;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($red, 10%);
+  }
+}
+
+button.button-edit-light {
+  color: $yellow;
+  background-color: $whiteish;
+  border-color: $yellow;
+  &:hover {
+    color: $yellow;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($yellow, 33.3%);
+  }
+  &:focus {
+    color: $yellow;
+    background-color: lighten($whiteish, 10%);
+    border-color: lighten($yellow, 33.3%);
+  }
+}
