@@ -57,5 +57,25 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
+    <script>
+
+			$(function() {
+
+				$('article').readingTime({
+					readingTimeTarget: $(this).find('.eta'),
+					wordCountTarget: $(this).find('.words'),
+					success: function() {
+						console.log('It worked!');
+					},
+					error: function(message) {
+						console.log(message);
+						$(this).find('.eta').remove();
+					}
+				});
+
+			});
+
+		</script>
+
 </body>
 </html>
